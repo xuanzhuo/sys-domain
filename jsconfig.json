@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "target": "es2020",
+    "module": "es2020",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+        "@/*": ["./src/*"],
+        "pages/*": ["./src/pages/*"],
+        "domain/*": ["./src/domain/*"],
+        "common/*": ["./src/common/*"]
+    },
+  },
+  "include": ["./src"],
+}
