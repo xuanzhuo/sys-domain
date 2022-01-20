@@ -1,5 +1,22 @@
+<<<<<<< HEAD
 node_modules
 .DS_Store
 dist
 dist-ssr
 *.local
+=======
+logs
+*.log
+npm-debug.log*
+.DS_Store
+*.exe
+
+coverage
+node_modules
+dist
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+>>>>>>> 602839e (gitignore配置)
